@@ -10,7 +10,7 @@ std::vector< char > foo(std::list< Human >& people)
 {
     vector<char>zwierze;
 
-    for(auto it =people.rbegin(); itr != people.rend(); it++)
+    for(auto it =people.rbegin(); it != people.rend(); it++)
     {
       it -> birthday();
 
