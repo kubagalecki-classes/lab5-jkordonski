@@ -14,7 +14,7 @@ std::vector< char > foo(std::list< Human >& people)
     {
       it -> birthday();
 
-      if(it -> isMonster()=true)
+      if(it -> isMonster()==true)
       {
         zwierze.emplace_back('n');
       }
